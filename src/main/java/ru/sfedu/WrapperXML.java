@@ -2,27 +2,26 @@ package ru.sfedu;
 
 import org.simpleframework.xml.ElementList;
 import org.simpleframework.xml.Root;
+import ru.sfedu.beans.Example;
 
 import java.util.ArrayList;
+import java.util.List;
 
-@Root(name = "xml")
+
+@Root(name = "Examples")
 public class WrapperXML<T> {
-    @ElementList(name = "cont")
-    private T container;
-
-    public WrapperXML(T container){
-        this.container = container;
-    }
+    @ElementList(name = "cont", inline = true, required = false)
+    public List<T> container;
 
     public WrapperXML() {
-
     }
 
-    public T getContainer() {
+
+    public List<T> getContainer() {
         return container;
     }
 
-    public void setContainer() {
+    public void setContainer(List<T> container){
         this.container = container;
     }
 
@@ -32,4 +31,5 @@ public class WrapperXML<T> {
                 ", container=" + container +
                 '}';
     }
+
 }

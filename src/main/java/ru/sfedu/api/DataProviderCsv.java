@@ -27,7 +27,7 @@ public class DataProviderCsv implements IDataProvider{
     private static final Logger log = LogManager.getLogger(DataProviderCsv.class.getName());
 
     @Override
-    public void insertStorekeeper(Storekeeper storekeeper) throws CsvRequiredFieldEmptyException, CsvDataTypeMismatchException, IOException {
+    public void insertStorekeeper(List<Storekeeper> storekeeper) throws CsvRequiredFieldEmptyException, CsvDataTypeMismatchException, IOException {
         CSVWriter writer = null;
         try {
             writer =new CSVWriter(new FileWriter(Constants.CSV_PATH,true));
@@ -41,7 +41,7 @@ public class DataProviderCsv implements IDataProvider{
         try{
             String method = currentThread().getStackTrace()[1].getMethodName();
             beanToCsv.write(storekeeper);
-            sendHistory(storekeeper.getClass().getSimpleName(), method, null, Status.SUCCESS);
+//            sendHistory(storekeeper.getClass().getSimpleName(), method, null, Status.SUCCESS);
         } catch (CsvDataTypeMismatchException e) {
             e.printStackTrace();
         } catch (CsvRequiredFieldEmptyException e) {
@@ -75,6 +75,7 @@ public class DataProviderCsv implements IDataProvider{
         } catch (IOException e) {
             log.error(e);
         }
+//        sendHistory(keepers.getClass().getSimpleName(), method, null, Status.SUCCESS);
 //        list.forEach(System.out::println);
         return list;
 
@@ -107,7 +108,7 @@ public class DataProviderCsv implements IDataProvider{
         try {
             beanToCsv.write(keepers);
             String method = currentThread().getStackTrace()[1].getMethodName();
-            sendHistory(keepers.getClass().getSimpleName(), method, null, Status.SUCCESS);
+//            sendHistory(keepers.getClass().getSimpleName(), method, null, Status.SUCCESS);
         } catch (CsvDataTypeMismatchException | CsvRequiredFieldEmptyException e) {
             log.throwing(e);
         }
@@ -129,7 +130,7 @@ public class DataProviderCsv implements IDataProvider{
         try {
             insertStorekeeper(storekeeper);
             String method = currentThread().getStackTrace()[1].getMethodName();
-            sendHistory(storekeeper.getClass().getSimpleName(), method, null, Status.SUCCESS);
+//            sendHistory(storekeeper.getClass().getSimpleName(), method, null, Status.SUCCESS);
         } catch (CsvRequiredFieldEmptyException e) {
             e.printStackTrace();
         } catch (CsvDataTypeMismatchException e) {

@@ -1,6 +1,8 @@
-<root>
-   <id>1</id>
-   <name>vghj</name>
-   <address>cvbn</address>
-   <phone_number>51351</phone_number>
-</root>
+<Examples>
+   <object class="ru.sfedu.beans.Storekeeper">
+      <id>1</id>
+      <name>vghj</name>
+      <address>cvbn</address>
+      <phone_number>51351</phone_number>
+   </object>
+</Examples>

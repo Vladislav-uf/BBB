@@ -1,5 +1,3 @@
-import com.opencsv.exceptions.CsvDataTypeMismatchException;
-import com.opencsv.exceptions.CsvRequiredFieldEmptyException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.Test;
@@ -22,18 +20,18 @@ public class XMLStorekeeperTest {
 
     @Test
     public void testStorekeeperInsert() throws IOException {
+        List<Storekeeper> list = new ArrayList<>();
         DataProviderXML dpc = new DataProviderXML();
         Storekeeper storekeeper1 = new Storekeeper(1, "vghj", "cvbn", "51351");
         log.info("num1");
 //        log.info(idtime);
-        List<Storekeeper> list = new ArrayList<>();
 //        dpc.insertStorekeeper(storekeeper1);
         Storekeeper storekeeper2 = new Storekeeper(2, "vghj", "cvbn", "51351");
 //        dpc.insertStorekeeper(storekeeper2);
         list.add(storekeeper1);
         list.add(storekeeper2);
         log.info("list =" + list);
-        dpc.insertStorekeeper(list.get(0));
+        dpc.insertStorekeeper(list);
 //        Storekeeper list = dpc.getById(idtime);
 //        assertEquals(storekeeper,list);
     }
@@ -58,23 +56,26 @@ public class XMLStorekeeperTest {
 //        assertEquals(storekeeper, ById);
     }
 //
-//    @Test
-//    public void testStorekeeperUpdate() {
-//
-//        Storekeeper storekeeper = new Storekeeper(idtime, "vghj", "cvbn", "51351");
-//        dpc.updateStorekeeper(idtime, storekeeper);
-//        Storekeeper storekeeperById = dpc.getById(idtime);
+    @Test
+    public void testStorekeeperUpdate() {
+        DataProviderXML dpc = new DataProviderXML();
+        List<Storekeeper> list = new ArrayList<>();
+        Storekeeper storekeeper = new Storekeeper(idtime, "vghj", "cvbn", "51351");
+        list.add(storekeeper);
+        dpc.updateStorekeeper(idtime, list);
+        Storekeeper storekeeperById = dpc.getById(idtime);
 //        assertEquals(storekeeper, storekeeperById);
-//    }
+    }
 //
-//    @Test
-//    public void testStorekeeperWDelete() {
-//        dpc.deleteStorekeeper(idtime);
-//        log.info("num2");
-//        Storekeeper list = dpc.getById(idtime);
-//        log.info(list);
+    @Test
+    public void testStorekeeperWDelete() {
+        DataProviderXML dpc = new DataProviderXML();
+        dpc.deleteStorekeeper(2);
+        log.info("delete");
+        Storekeeper list = dpc.getById(2);
+        log.info(list);
 //        assertEquals(null, list);
-//    }
+    }
 }
 
 

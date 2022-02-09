@@ -7,7 +7,7 @@ public class Constants {
     public static final long ID_TIME = System.currentTimeMillis();
 
     public static final String XML_PATH = "store.xml";
-
+    public static final String XML_PATHS = "example.xml";
     public static final String MONGO_URI = "mongoURI";
     public static final String MONGO_DATABASE = "mongoDatabase";
     public static final String MONGO_COLLECTION = "mongoCollection";

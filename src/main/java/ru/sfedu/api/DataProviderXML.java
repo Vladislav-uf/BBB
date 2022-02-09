@@ -1,4 +1,6 @@
 package ru.sfedu.api;
+import com.opencsv.exceptions.CsvDataTypeMismatchException;
+import com.opencsv.exceptions.CsvRequiredFieldEmptyException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.simpleframework.xml.Serializer;
@@ -12,22 +14,21 @@ import java.util.Objects;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class DataProviderXML{
+public class DataProviderXML implements IDataProvider{
     private static final Logger log = LogManager.getLogger(DataProviderCsv.class.getName());
 
-
-    public void insertStorekeeper(Storekeeper storekeeper) throws  IOException {
+    @Override
+    public void insertStorekeeper(List<Storekeeper> storekeeper) throws  IOException {
         Serializer serializer = new Persister();
-        File result = new File(Constants.XML_PATH);
-        Writer writer = new FileWriter(result);
+        WrapperXML wrap = new WrapperXML<>();
+        wrap.setContainer(storekeeper);
+        FileWriter result = new FileWriter(Constants.XML_PATH);
         WrapperXML<Storekeeper> xml = new WrapperXML<>();
         log.info("storekeeper = " + storekeeper);
-
-        log.info("xml = " + xml);
         try{
-            serializer.write(storekeeper, writer);
+            serializer.write(wrap, result);
         try{
-            writer.close();
+            result.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -37,19 +38,19 @@ public class DataProviderXML{
         }
     }
 
-//        @Override
+        @Override
     public List<Storekeeper> selectStorekeepers(){
-        log.info("writer1");
+//        log.info("writer1");
         List <Storekeeper> loaded = null;
         try{
         Serializer serializer = new Persister();
         FileReader file = new FileReader(Constants.XML_PATH);
-        log.info("writer3");
-        log.info("writer4");
+//        log.info("writer3");
         WrapperXML xml = serializer.read(WrapperXML.class, file);
         log.info("xml = " + xml);
-        loaded = (List<Storekeeper>) xml;
+//        loaded = (List<Storekeeper>) xml;
         file.close();
+        loaded = xml.getContainer();
         }
         catch (Exception e) {
             e.printStackTrace();
@@ -59,7 +60,7 @@ public class DataProviderXML{
 //        list.forEach(System.out::println);
 
     }
-//    @Override
+    @Override
     public Storekeeper getById(long id) {
         Storekeeper list = selectStorekeepers().stream()
                 .filter(x -> (x).getId() == (id))
@@ -68,49 +69,51 @@ public class DataProviderXML{
         log.info(list);
         return list;
     }
-//
-//    @Override
-//    public void deleteStorekeeper(long id) {
-//        Storekeeper en = getById(id);
-//        if (en == null){
-//            return;
-//        }
-//        List<Storekeeper> keepers = selectStorekeepers();
-//        keepers.removeIf(del -> (del.getId() == id));
-//        Writer writer = null;
-//        try {
-//            writer = new FileWriter(Constants.CSV_PATH);
-//        } catch (IOException e) {
-//            log.throwing(e);
-//        }
-//        StatefulBeanToCsv<Storekeeper> beanToCsv = new StatefulBeanToCsvBuilder<Storekeeper>(writer).build();
-//        try {
-//            beanToCsv.write(keepers);
-//        } catch (CsvDataTypeMismatchException | CsvRequiredFieldEmptyException e) {
-//            log.throwing(e);
-//        }
-//        try {
-//            if (writer != null) {
-//                writer.close();
-//            }
-//        } catch (IOException e) {
-//            log.throwing(e);
-//        }
-//    }
-//    @Override
-//    public void updateStorekeeper(long id, Storekeeper storekeeper) throws CsvRequiredFieldEmptyException, CsvDataTypeMismatchException {
-//        Storekeeper en = getById(id);
-//        if (en == null){
-//            return;
-//        }
-//        deleteStorekeeper(id);
-//        try {
-//            insertStorekeeper(storekeeper);
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-//    }
-//
+
+
+    //
+    @Override
+    public void deleteStorekeeper(long id) {
+        Storekeeper en = getById(id);
+        log.info(id);
+        if (en == null){
+            return;
+        }
+        List<Storekeeper> keepers = selectStorekeepers();
+        log.info("keepers = " + keepers);
+        keepers.removeIf(del -> (del.getId() == id));
+        log.info("keepersdel = " + keepers);
+        Writer writer = null;
+        try {
+            insertStorekeeper(keepers);
+
+        } catch (IOException e) {
+            log.throwing(e);
+        }
+        try {
+            if (writer != null) {
+                writer.close();
+            }
+        } catch (IOException e) {
+            log.throwing(e);
+        }
+    }
+
+
+    @Override
+    public void updateStorekeeper(long id, List<Storekeeper> storekeeper){
+        Storekeeper en = getById(id);
+        if (en == null){
+            return;
+        }
+        deleteStorekeeper(id);
+        try {
+            insertStorekeeper(storekeeper);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
 }
 
 

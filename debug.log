@@ -2921,3 +2921,362 @@ java.io.FileNotFoundException: try.csv (Не удается найти указ�
 12.24 09.47.31  INFO	ru.sfedu.api.DataProviderCsv:47 - writer3
 12.24 09.47.31  INFO	ru.sfedu.api.DataProviderCsv:48 - writer4
 12.24 09.47.31  INFO	ru.sfedu.api.DataProviderCsv:57 - loaded = null
+12.25 12.39.43  INFO	ru.sfedu.api.DataProviderCsv:27 - num1
+12.25 12.39.43  INFO	ru.sfedu.api.DataProviderCsv:28 - 1640187691957
+12.25 12.39.44  INFO	ru.sfedu.utils.HistoryMongo:35 - Connection succesful
+12.25 12.39.44  INFO	ru.sfedu.utils.HistoryMongo:36 - Connection succesfulDocument{{id=1640425184024, className=Storekeeper, createdDate=Sat Dec 25 12:39:44 MSK 2021, actor=system, methodName=insertStorekeeper, object=null, status=SUCCESS}}
+12.25 12.39.51  INFO	ru.sfedu.utils.HistoryMongo:38 - Connection succesful eee
+12.25 12.41.53  INFO	ru.sfedu.api.DataProviderCsv:27 - num1
+12.25 12.41.53  INFO	ru.sfedu.api.DataProviderCsv:28 - 1640187691957
+12.25 12.44.14  INFO	ru.sfedu.api.DataProviderCsv:26 - num1
+12.25 12.44.15  INFO	ru.sfedu.api.DataProviderCsv:27 - 1640187691957
+12.25 12.44.26  INFO	ru.sfedu.api.DataProviderCsv:81 - num1
+12.25 12.44.26  INFO	ru.sfedu.api.DataProviderCsv:82 - 1640187691957
+12.25 12.45.11  INFO	ru.sfedu.api.DataProviderCsv:81 - num1
+12.25 12.45.11  INFO	ru.sfedu.api.DataProviderCsv:82 - 9
+12.25 12.46.34  INFO	ru.sfedu.api.DataProviderCsv:81 - num1
+12.25 12.46.34  INFO	ru.sfedu.api.DataProviderCsv:82 - 9
+12.25 12.53.57  INFO	ru.sfedu.api.DataProviderCsv:81 - num1
+12.25 12.53.57  INFO	ru.sfedu.api.DataProviderCsv:82 - 9
+12.25 12.55.02  INFO	ru.sfedu.api.DataProviderCsv:81 - num1
+12.25 12.55.02  INFO	ru.sfedu.api.DataProviderCsv:82 - 9
+12.25 12.55.44  INFO	ru.sfedu.api.DataProviderCsv:81 - num1
+12.25 12.55.44  INFO	ru.sfedu.api.DataProviderCsv:82 - 9
+12.25 12.55.44  INFO	ru.sfedu.api.DataProviderCsv:87 - insert off
+12.25 13.00.48  INFO	ru.sfedu.api.DataProviderCsv:82 - num1
+12.25 13.00.48  INFO	ru.sfedu.api.DataProviderCsv:83 - 9
+12.25 13.00.48  INFO	ru.sfedu.api.DataProviderCsv:88 - insert off
+12.25 13.01.01  INFO	ru.sfedu.api.DataProviderCsv:99 - num1
+12.25 13.09.20  INFO	ru.sfedu.api.DataProviderCsv:99 - num1
+12.25 13.09.21  INFO	ru.sfedu.api.DataProviderCsv:106 - select off
+12.25 13.13.26  INFO	ru.sfedu.api.DataProviderCsv:99 - num1
+12.25 13.13.26  INFO	ru.sfedu.api.DataProviderCsv:106 - select off
+12.25 13.13.30  INFO	ru.sfedu.api.DataProviderCsv:119 - num1
+12.25 13.14.39  INFO	ru.sfedu.api.DataProviderCsv:119 - num1
+12.25 13.15.17  INFO	ru.sfedu.api.DataProviderCsv:118 - num1
+12.25 13.15.53  INFO	ru.sfedu.api.DataProviderCsv:116 - num1
+12.25 13.17.06  INFO	ru.sfedu.api.DataProviderCsv:116 - num1
+12.25 13.17.06  INFO	ru.sfedu.api.DataProviderCsv:118 - null
+12.25 13.17.40  INFO	ru.sfedu.api.DataProviderCsv:116 - num1
+12.25 13.17.40  INFO	ru.sfedu.api.DataProviderCsv:117 - null
+12.25 13.19.34  INFO	ru.sfedu.api.DataProviderCsv:116 - num1
+12.25 13.19.35  INFO	ru.sfedu.api.DataProviderCsv:118 - null
+12.25 13.19.46  INFO	ru.sfedu.api.DataProviderCsv:116 - num1
+12.25 13.19.47  INFO	ru.sfedu.api.DataProviderCsv:118 - Storekeeper{id='9', name='vghj', address='cvbn', phone_number='51351'}
+12.25 13.20.02  INFO	ru.sfedu.api.DataProviderCsv:116 - num1
+12.25 13.20.03  INFO	ru.sfedu.api.DataProviderCsv:118 - null
+12.25 13.23.14  INFO	ru.sfedu.api.DataProviderCsv:116 - num1
+12.25 13.23.14  INFO	ru.sfedu.api.DataProviderCsv:118 - null
+12.25 13.23.25  INFO	ru.sfedu.api.DataProviderCsv:116 - num1
+12.25 13.23.25  INFO	ru.sfedu.api.DataProviderCsv:118 - null
+12.25 13.23.25  INFO	ru.sfedu.api.DataProviderCsv:120 - select off
+12.25 13.24.07  INFO	ru.sfedu.api.DataProviderCsv:116 - num1
+12.25 13.24.07  INFO	ru.sfedu.api.DataProviderCsv:118 - null
+12.25 13.24.07  INFO	ru.sfedu.api.DataProviderCsv:120 - select off
+12.25 13.24.26  INFO	ru.sfedu.api.DataProviderCsv:116 - num1
+12.25 13.24.26  INFO	ru.sfedu.api.DataProviderCsv:118 - Storekeeper{id='9', name='vghj', address='cvbn', phone_number='51351'}
+12.25 13.26.24  INFO	ru.sfedu.api.DataProviderCsv:143 - num1
+12.25 13.31.10  INFO	ru.sfedu.api.DataProviderCsv:157 - num2
+12.25 13.31.10  INFO	ru.sfedu.api.DataProviderCsv:162 - num1
+12.25 13.31.10  INFO	ru.sfedu.api.DataProviderCsv:168 - select off
+12.25 13.32.30  INFO	ru.sfedu.api.DataProviderCsv:82 - num1
+12.25 13.32.30  INFO	ru.sfedu.api.DataProviderCsv:83 - 9
+12.25 13.32.30  INFO	ru.sfedu.api.DataProviderCsv:88 - insert off
+12.25 13.33.57  INFO	ru.sfedu.api.DataProviderCsv:82 - num1
+12.25 13.33.57  INFO	ru.sfedu.api.DataProviderCsv:83 - 9
+12.25 13.33.58  INFO	ru.sfedu.api.DataProviderCsv:88 - insert off
+12.25 13.34.27  INFO	ru.sfedu.api.DataProviderCsv:157 - num2
+12.25 13.34.27  INFO	ru.sfedu.api.DataProviderCsv:162 - num1
+12.25 13.34.27  INFO	ru.sfedu.api.DataProviderCsv:168 - delete off
+12.25 13.35.08  INFO	ru.sfedu.api.DataProviderCsv:82 - num1
+12.25 13.35.08  INFO	ru.sfedu.api.DataProviderCsv:83 - 9
+12.25 13.35.08  INFO	ru.sfedu.api.DataProviderCsv:88 - insert off
+12.25 13.35.19  INFO	ru.sfedu.api.DataProviderCsv:99 - num1
+12.25 13.35.20  INFO	ru.sfedu.api.DataProviderCsv:105 - select off
+12.25 13.35.32  INFO	ru.sfedu.api.DataProviderCsv:115 - num1
+12.25 13.35.33  INFO	ru.sfedu.api.DataProviderCsv:117 - null
+12.25 13.35.33  INFO	ru.sfedu.api.DataProviderCsv:119 - select off
+02.06 20.44.25  INFO	ru.sfedu.api.DataProviderCsv:27 - num1
+02.06 20.44.25  INFO	ru.sfedu.api.DataProviderCsv:35 - list =[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.06 20.44.25  INFO	ru.sfedu.api.DataProviderCsv:24 - storekeeper = Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}
+02.06 20.44.25  INFO	ru.sfedu.api.DataProviderCsv:26 - xml = {, container=null}
+02.06 20.55.07  INFO	ru.sfedu.api.DataProviderCsv:27 - num1
+02.06 20.55.07  INFO	ru.sfedu.api.DataProviderCsv:35 - list =[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.06 20.56.11  INFO	ru.sfedu.api.DataProviderCsv:27 - num1
+02.06 20.56.11  INFO	ru.sfedu.api.DataProviderCsv:35 - list =[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.06 20.57.11  INFO	ru.sfedu.api.DataProviderCsv:27 - num1
+02.06 20.57.11  INFO	ru.sfedu.api.DataProviderCsv:35 - list =[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.06 20.57.11  INFO	ru.sfedu.api.DataProviderCsv:24 - storekeeper = Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}
+02.06 20.57.11  INFO	ru.sfedu.api.DataProviderCsv:26 - xml = {, container=null}
+02.06 20.57.11  INFO	ru.sfedu.api.DataProviderCsv:24 - storekeeper = Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}
+02.06 20.57.11  INFO	ru.sfedu.api.DataProviderCsv:26 - xml = {, container=null}
+02.06 21.06.29  INFO	ru.sfedu.api.DataProviderCsv:28 - num1
+02.06 21.06.29  INFO	ru.sfedu.api.DataProviderCsv:36 - list =[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.06 21.06.29  INFO	ru.sfedu.api.DataProviderCsv:24 - storekeeper = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}]
+02.06 21.06.29  INFO	ru.sfedu.api.DataProviderCsv:26 - xml = {, container=null}
+02.06 21.06.29  INFO	ru.sfedu.api.DataProviderCsv:24 - storekeeper = [Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.06 21.06.29  INFO	ru.sfedu.api.DataProviderCsv:26 - xml = {, container=null}
+02.06 21.07.15  INFO	ru.sfedu.api.DataProviderCsv:27 - num1
+02.06 21.07.15  INFO	ru.sfedu.api.DataProviderCsv:35 - list =[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.06 21.07.15  INFO	ru.sfedu.api.DataProviderCsv:24 - storekeeper = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.06 21.07.15  INFO	ru.sfedu.api.DataProviderCsv:26 - xml = {, container=null}
+02.06 21.10.02  INFO	ru.sfedu.api.DataProviderCsv:27 - num1
+02.06 21.10.03  INFO	ru.sfedu.api.DataProviderCsv:35 - list =[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.06 21.10.03  INFO	ru.sfedu.api.DataProviderCsv:24 - storekeeper = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.06 21.10.03  INFO	ru.sfedu.api.DataProviderCsv:26 - xml = {, container=null}
+02.06 21.17.14  INFO	ru.sfedu.api.DataProviderCsv:42 - writer1
+02.06 21.17.14  INFO	ru.sfedu.api.DataProviderCsv:47 - writer3
+02.06 21.17.14  INFO	ru.sfedu.api.DataProviderCsv:48 - writer4
+02.06 21.17.14  INFO	ru.sfedu.api.DataProviderCsv:57 - loaded = null
+02.06 21.17.26  INFO	ru.sfedu.api.DataProviderCsv:42 - writer1
+02.06 21.17.26  INFO	ru.sfedu.api.DataProviderCsv:47 - writer3
+02.06 21.17.26  INFO	ru.sfedu.api.DataProviderCsv:48 - writer4
+02.06 21.17.26  INFO	ru.sfedu.api.DataProviderCsv:57 - loaded = null
+02.07 21.54.52  INFO	ru.sfedu.api.DataProviderCsv:42 - writer1
+02.07 21.54.52  INFO	ru.sfedu.api.DataProviderCsv:47 - writer3
+02.07 21.54.52  INFO	ru.sfedu.api.DataProviderCsv:48 - writer4
+02.07 21.54.52  INFO	ru.sfedu.api.DataProviderCsv:57 - loaded = null
+02.09 20.42.06  INFO	ru.sfedu.api.DataProviderCsv:29 - num1
+02.09 20.42.07  INFO	ru.sfedu.api.DataProviderCsv:36 - list =[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 20.42.07  INFO	ru.sfedu.api.DataProviderCsv:25 - storekeeper = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 20.42.07  INFO	ru.sfedu.api.DataProviderCsv:26 - xml = {, container=null}
+02.09 20.44.23  INFO	ru.sfedu.api.DataProviderCsv:29 - num1
+02.09 20.44.23  INFO	ru.sfedu.api.DataProviderCsv:36 - list =[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 20.44.23  INFO	ru.sfedu.api.DataProviderCsv:25 - storekeeper = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 20.44.23  INFO	ru.sfedu.api.DataProviderCsv:26 - xml = {, container=null}
+02.09 20.46.05  INFO	ru.sfedu.api.DataProviderCsv:41 - writer1
+02.09 20.46.05  INFO	ru.sfedu.api.DataProviderCsv:46 - writer3
+02.09 20.46.05  INFO	ru.sfedu.api.DataProviderCsv:47 - writer4
+02.09 20.46.05  INFO	ru.sfedu.api.DataProviderCsv:49 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 20.46.05  INFO	ru.sfedu.api.DataProviderCsv:56 - loaded = null
+02.09 20.47.29  INFO	ru.sfedu.api.DataProviderCsv:41 - writer1
+02.09 20.47.29  INFO	ru.sfedu.api.DataProviderCsv:46 - writer3
+02.09 20.47.29  INFO	ru.sfedu.api.DataProviderCsv:47 - writer4
+02.09 20.47.29  INFO	ru.sfedu.api.DataProviderCsv:49 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 20.47.29  INFO	ru.sfedu.api.DataProviderCsv:56 - loaded = null
+02.09 20.49.14  INFO	ru.sfedu.api.DataProviderCsv:41 - writer1
+02.09 20.49.14  INFO	ru.sfedu.api.DataProviderCsv:46 - writer3
+02.09 20.49.14  INFO	ru.sfedu.api.DataProviderCsv:47 - writer4
+02.09 20.49.14  INFO	ru.sfedu.api.DataProviderCsv:49 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 20.49.14  INFO	ru.sfedu.api.DataProviderCsv:56 - loaded = null
+02.09 20.52.06  INFO	ru.sfedu.api.DataProviderCsv:38 - writer1
+02.09 20.52.06  INFO	ru.sfedu.api.DataProviderCsv:43 - writer3
+02.09 20.52.06  INFO	ru.sfedu.api.DataProviderCsv:44 - writer4
+02.09 20.52.06  INFO	ru.sfedu.api.DataProviderCsv:46 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 20.52.06  INFO	ru.sfedu.api.DataProviderCsv:53 - loaded = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 20.54.04  INFO	ru.sfedu.api.DataProviderCsv:38 - writer1
+02.09 20.54.04  INFO	ru.sfedu.api.DataProviderCsv:43 - writer3
+02.09 20.54.04  INFO	ru.sfedu.api.DataProviderCsv:44 - writer4
+02.09 20.54.04  INFO	ru.sfedu.api.DataProviderCsv:46 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 20.59.25  INFO	ru.sfedu.api.DataProviderCsv:41 - writer1
+02.09 20.59.25  INFO	ru.sfedu.api.DataProviderCsv:46 - writer3
+02.09 20.59.25  INFO	ru.sfedu.api.DataProviderCsv:47 - writer4
+02.09 20.59.25  INFO	ru.sfedu.api.DataProviderCsv:49 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 20.59.25  INFO	ru.sfedu.api.DataProviderCsv:57 - loaded = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 20.59.47  INFO	ru.sfedu.api.DataProviderCsv:41 - writer1
+02.09 20.59.47  INFO	ru.sfedu.api.DataProviderCsv:46 - writer3
+02.09 20.59.47  INFO	ru.sfedu.api.DataProviderCsv:47 - writer4
+02.09 20.59.47  INFO	ru.sfedu.api.DataProviderCsv:49 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 20.59.47  INFO	ru.sfedu.api.DataProviderCsv:57 - loaded = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 20.59.47  INFO	ru.sfedu.api.DataProviderCsv:68 - Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}
+02.09 20.59.47  INFO	ru.sfedu.api.DataProviderCsv:41 - writer1
+02.09 20.59.47  INFO	ru.sfedu.api.DataProviderCsv:46 - writer3
+02.09 20.59.47  INFO	ru.sfedu.api.DataProviderCsv:47 - writer4
+02.09 20.59.47  INFO	ru.sfedu.api.DataProviderCsv:49 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 20.59.47  INFO	ru.sfedu.api.DataProviderCsv:57 - loaded = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 20.59.47  INFO	ru.sfedu.api.DataProviderCsv:68 - Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}
+02.09 21.07.59  INFO	ru.sfedu.api.DataProviderCsv:41 - writer1
+02.09 21.07.59  INFO	ru.sfedu.api.DataProviderCsv:46 - writer3
+02.09 21.07.59  INFO	ru.sfedu.api.DataProviderCsv:47 - writer4
+02.09 21.07.59  INFO	ru.sfedu.api.DataProviderCsv:49 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 21.07.59  INFO	ru.sfedu.api.DataProviderCsv:57 - loaded = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.07.59  INFO	ru.sfedu.api.DataProviderCsv:68 - null
+02.09 21.07.59  INFO	ru.sfedu.api.DataProviderCsv:75 - num2
+02.09 21.07.59  INFO	ru.sfedu.api.DataProviderCsv:41 - writer1
+02.09 21.07.59  INFO	ru.sfedu.api.DataProviderCsv:46 - writer3
+02.09 21.07.59  INFO	ru.sfedu.api.DataProviderCsv:47 - writer4
+02.09 21.07.59  INFO	ru.sfedu.api.DataProviderCsv:49 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 21.07.59  INFO	ru.sfedu.api.DataProviderCsv:57 - loaded = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.07.59  INFO	ru.sfedu.api.DataProviderCsv:68 - null
+02.09 21.07.59  INFO	ru.sfedu.api.DataProviderCsv:77 - null
+02.09 21.08.41  INFO	ru.sfedu.api.DataProviderCsv:41 - writer1
+02.09 21.08.41  INFO	ru.sfedu.api.DataProviderCsv:46 - writer3
+02.09 21.08.41  INFO	ru.sfedu.api.DataProviderCsv:47 - writer4
+02.09 21.08.41  INFO	ru.sfedu.api.DataProviderCsv:49 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 21.08.41  INFO	ru.sfedu.api.DataProviderCsv:57 - loaded = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.08.41  INFO	ru.sfedu.api.DataProviderCsv:68 - Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}
+02.09 21.08.41  INFO	ru.sfedu.api.DataProviderCsv:41 - writer1
+02.09 21.08.41  INFO	ru.sfedu.api.DataProviderCsv:46 - writer3
+02.09 21.08.41  INFO	ru.sfedu.api.DataProviderCsv:47 - writer4
+02.09 21.08.41  INFO	ru.sfedu.api.DataProviderCsv:49 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 21.08.41  INFO	ru.sfedu.api.DataProviderCsv:57 - loaded = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.08.41  INFO	ru.sfedu.api.DataProviderCsv:75 - num2
+02.09 21.08.41  INFO	ru.sfedu.api.DataProviderCsv:41 - writer1
+02.09 21.08.41  INFO	ru.sfedu.api.DataProviderCsv:46 - writer3
+02.09 21.08.41  INFO	ru.sfedu.api.DataProviderCsv:47 - writer4
+02.09 21.08.41  INFO	ru.sfedu.api.DataProviderCsv:49 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 21.08.41  INFO	ru.sfedu.api.DataProviderCsv:57 - loaded = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.08.41  INFO	ru.sfedu.api.DataProviderCsv:68 - Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}
+02.09 21.08.41  INFO	ru.sfedu.api.DataProviderCsv:77 - Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}
+02.09 21.08.56  INFO	ru.sfedu.api.DataProviderCsv:41 - writer1
+02.09 21.08.56  INFO	ru.sfedu.api.DataProviderCsv:46 - writer3
+02.09 21.08.56  INFO	ru.sfedu.api.DataProviderCsv:47 - writer4
+02.09 21.08.56  INFO	ru.sfedu.api.DataProviderCsv:49 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 21.08.56  INFO	ru.sfedu.api.DataProviderCsv:57 - loaded = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.08.56  INFO	ru.sfedu.api.DataProviderCsv:68 - Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}
+02.09 21.08.56  INFO	ru.sfedu.api.DataProviderCsv:41 - writer1
+02.09 21.08.56  INFO	ru.sfedu.api.DataProviderCsv:46 - writer3
+02.09 21.08.56  INFO	ru.sfedu.api.DataProviderCsv:47 - writer4
+02.09 21.08.56  INFO	ru.sfedu.api.DataProviderCsv:49 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 21.08.56  INFO	ru.sfedu.api.DataProviderCsv:57 - loaded = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.08.56  INFO	ru.sfedu.api.DataProviderCsv:75 - num2
+02.09 21.08.56  INFO	ru.sfedu.api.DataProviderCsv:41 - writer1
+02.09 21.08.56  INFO	ru.sfedu.api.DataProviderCsv:46 - writer3
+02.09 21.08.56  INFO	ru.sfedu.api.DataProviderCsv:47 - writer4
+02.09 21.08.56  INFO	ru.sfedu.api.DataProviderCsv:49 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 21.08.56  INFO	ru.sfedu.api.DataProviderCsv:57 - loaded = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.08.56  INFO	ru.sfedu.api.DataProviderCsv:68 - Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}
+02.09 21.08.56  INFO	ru.sfedu.api.DataProviderCsv:77 - Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}
+02.09 21.09.46  INFO	ru.sfedu.api.DataProviderCsv:41 - writer1
+02.09 21.09.46  INFO	ru.sfedu.api.DataProviderCsv:46 - writer3
+02.09 21.09.46  INFO	ru.sfedu.api.DataProviderCsv:47 - writer4
+02.09 21.09.46  INFO	ru.sfedu.api.DataProviderCsv:49 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 21.09.46  INFO	ru.sfedu.api.DataProviderCsv:57 - loaded = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.09.46  INFO	ru.sfedu.api.DataProviderCsv:68 - Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}
+02.09 21.09.46  INFO	ru.sfedu.api.DataProviderCsv:41 - writer1
+02.09 21.09.46  INFO	ru.sfedu.api.DataProviderCsv:46 - writer3
+02.09 21.09.46  INFO	ru.sfedu.api.DataProviderCsv:47 - writer4
+02.09 21.09.46  INFO	ru.sfedu.api.DataProviderCsv:49 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 21.09.46  INFO	ru.sfedu.api.DataProviderCsv:57 - loaded = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.09.46  INFO	ru.sfedu.api.DataProviderCsv:75 - delete
+02.09 21.09.46  INFO	ru.sfedu.api.DataProviderCsv:41 - writer1
+02.09 21.09.46  INFO	ru.sfedu.api.DataProviderCsv:46 - writer3
+02.09 21.09.46  INFO	ru.sfedu.api.DataProviderCsv:47 - writer4
+02.09 21.09.46  INFO	ru.sfedu.api.DataProviderCsv:49 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 21.09.46  INFO	ru.sfedu.api.DataProviderCsv:57 - loaded = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.09.46  INFO	ru.sfedu.api.DataProviderCsv:68 - Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}
+02.09 21.09.46  INFO	ru.sfedu.api.DataProviderCsv:77 - Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}
+02.09 21.10.04  INFO	ru.sfedu.api.DataProviderCsv:41 - writer1
+02.09 21.10.04  INFO	ru.sfedu.api.DataProviderCsv:46 - writer3
+02.09 21.10.04  INFO	ru.sfedu.api.DataProviderCsv:47 - writer4
+02.09 21.10.04  INFO	ru.sfedu.api.DataProviderCsv:49 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 21.10.04  INFO	ru.sfedu.api.DataProviderCsv:57 - loaded = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.10.04  INFO	ru.sfedu.api.DataProviderCsv:68 - Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}
+02.09 21.10.04  INFO	ru.sfedu.api.DataProviderCsv:41 - writer1
+02.09 21.10.04  INFO	ru.sfedu.api.DataProviderCsv:46 - writer3
+02.09 21.10.04  INFO	ru.sfedu.api.DataProviderCsv:47 - writer4
+02.09 21.10.04  INFO	ru.sfedu.api.DataProviderCsv:49 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 21.10.04  INFO	ru.sfedu.api.DataProviderCsv:57 - loaded = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.10.04  INFO	ru.sfedu.api.DataProviderCsv:75 - delete
+02.09 21.12.47  INFO	ru.sfedu.api.DataProviderCsv:48 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 21.12.47  INFO	ru.sfedu.api.DataProviderCsv:56 - loaded = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.12.47  INFO	ru.sfedu.api.DataProviderCsv:67 - Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}
+02.09 21.12.47  INFO	ru.sfedu.api.DataProviderCsv:74 - 2
+02.09 21.12.47  INFO	ru.sfedu.api.DataProviderCsv:48 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 21.12.47  INFO	ru.sfedu.api.DataProviderCsv:56 - loaded = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.12.47  INFO	ru.sfedu.api.DataProviderCsv:75 - delete
+02.09 21.12.47  INFO	ru.sfedu.api.DataProviderCsv:48 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 21.12.47  INFO	ru.sfedu.api.DataProviderCsv:56 - loaded = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.12.47  INFO	ru.sfedu.api.DataProviderCsv:67 - Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}
+02.09 21.12.47  INFO	ru.sfedu.api.DataProviderCsv:77 - Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}
+02.09 21.14.13  INFO	ru.sfedu.api.DataProviderCsv:48 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 21.14.13  INFO	ru.sfedu.api.DataProviderCsv:56 - loaded = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.14.13  INFO	ru.sfedu.api.DataProviderCsv:67 - Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}
+02.09 21.14.13  INFO	ru.sfedu.api.DataProviderCsv:74 - 2
+02.09 21.14.13  INFO	ru.sfedu.api.DataProviderCsv:48 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 21.14.13  INFO	ru.sfedu.api.DataProviderCsv:56 - loaded = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.14.13  INFO	ru.sfedu.api.DataProviderCsv:79 - keepers = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.14.13  INFO	ru.sfedu.api.DataProviderCsv:75 - delete
+02.09 21.14.13  INFO	ru.sfedu.api.DataProviderCsv:48 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 21.14.13  INFO	ru.sfedu.api.DataProviderCsv:56 - loaded = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.14.13  INFO	ru.sfedu.api.DataProviderCsv:67 - Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}
+02.09 21.14.13  INFO	ru.sfedu.api.DataProviderCsv:77 - Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}
+02.09 21.14.43  INFO	ru.sfedu.api.DataProviderCsv:48 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 21.14.43  INFO	ru.sfedu.api.DataProviderCsv:56 - loaded = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.14.43  INFO	ru.sfedu.api.DataProviderCsv:67 - Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}
+02.09 21.14.43  INFO	ru.sfedu.api.DataProviderCsv:74 - 2
+02.09 21.14.43  INFO	ru.sfedu.api.DataProviderCsv:48 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 21.14.43  INFO	ru.sfedu.api.DataProviderCsv:56 - loaded = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.14.43  INFO	ru.sfedu.api.DataProviderCsv:79 - keepers = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.14.43  INFO	ru.sfedu.api.DataProviderCsv:81 - keepersdel = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.14.43  INFO	ru.sfedu.api.DataProviderCsv:75 - delete
+02.09 21.14.43  INFO	ru.sfedu.api.DataProviderCsv:48 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 21.14.43  INFO	ru.sfedu.api.DataProviderCsv:56 - loaded = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.14.43  INFO	ru.sfedu.api.DataProviderCsv:67 - Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}
+02.09 21.14.43  INFO	ru.sfedu.api.DataProviderCsv:77 - Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}
+02.09 21.17.25  INFO	ru.sfedu.api.DataProviderCsv:48 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 21.17.25  INFO	ru.sfedu.api.DataProviderCsv:56 - loaded = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.17.25  INFO	ru.sfedu.api.DataProviderCsv:67 - Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}
+02.09 21.17.25  INFO	ru.sfedu.api.DataProviderCsv:74 - 2
+02.09 21.17.25  INFO	ru.sfedu.api.DataProviderCsv:48 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 21.17.25  INFO	ru.sfedu.api.DataProviderCsv:56 - loaded = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.17.25  INFO	ru.sfedu.api.DataProviderCsv:79 - keepers = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.17.25  INFO	ru.sfedu.api.DataProviderCsv:81 - keepersdel = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.17.25  INFO	ru.sfedu.api.DataProviderCsv:75 - delete
+02.09 21.18.50  INFO	ru.sfedu.api.DataProviderCsv:48 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 21.18.50  INFO	ru.sfedu.api.DataProviderCsv:56 - loaded = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.18.50  INFO	ru.sfedu.api.DataProviderCsv:67 - Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}
+02.09 21.18.50  INFO	ru.sfedu.api.DataProviderCsv:74 - 2
+02.09 21.18.50  INFO	ru.sfedu.api.DataProviderCsv:48 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 21.18.50  INFO	ru.sfedu.api.DataProviderCsv:56 - loaded = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.18.50  INFO	ru.sfedu.api.DataProviderCsv:79 - keepers = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.18.50  INFO	ru.sfedu.api.DataProviderCsv:81 - keepersdel = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.18.50  INFO	ru.sfedu.api.DataProviderCsv:75 - delete
+02.09 21.18.50  INFO	ru.sfedu.api.DataProviderCsv:56 - loaded = null
+02.09 21.19.16  INFO	ru.sfedu.api.DataProviderCsv:56 - loaded = null
+02.09 21.19.23  INFO	ru.sfedu.api.DataProviderCsv:29 - num1
+02.09 21.19.23  INFO	ru.sfedu.api.DataProviderCsv:36 - list =[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.19.23  INFO	ru.sfedu.api.DataProviderCsv:25 - storekeeper = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.19.30  INFO	ru.sfedu.api.DataProviderCsv:48 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 21.19.30  INFO	ru.sfedu.api.DataProviderCsv:56 - loaded = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.19.30  INFO	ru.sfedu.api.DataProviderCsv:67 - Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}
+02.09 21.19.30  INFO	ru.sfedu.api.DataProviderCsv:74 - 2
+02.09 21.19.30  INFO	ru.sfedu.api.DataProviderCsv:48 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 21.19.30  INFO	ru.sfedu.api.DataProviderCsv:56 - loaded = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.19.30  INFO	ru.sfedu.api.DataProviderCsv:79 - keepers = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.19.30  INFO	ru.sfedu.api.DataProviderCsv:81 - keepersdel = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.19.30  INFO	ru.sfedu.api.DataProviderCsv:75 - delete
+02.09 21.19.30  INFO	ru.sfedu.api.DataProviderCsv:48 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 21.19.30  INFO	ru.sfedu.api.DataProviderCsv:56 - loaded = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.19.30  INFO	ru.sfedu.api.DataProviderCsv:67 - Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}
+02.09 21.19.30  INFO	ru.sfedu.api.DataProviderCsv:77 - Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}
+02.09 21.23.08  INFO	ru.sfedu.api.DataProviderCsv:48 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 21.23.08  INFO	ru.sfedu.api.DataProviderCsv:56 - loaded = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.23.08  INFO	ru.sfedu.api.DataProviderCsv:67 - Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}
+02.09 21.23.08  INFO	ru.sfedu.api.DataProviderCsv:74 - 2
+02.09 21.23.08  INFO	ru.sfedu.api.DataProviderCsv:48 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 21.23.08  INFO	ru.sfedu.api.DataProviderCsv:56 - loaded = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.23.08  INFO	ru.sfedu.api.DataProviderCsv:79 - keepers = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.23.08  INFO	ru.sfedu.api.DataProviderCsv:81 - keepersdel = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.23.08  INFO	ru.sfedu.api.DataProviderCsv:25 - storekeeper = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.23.08  INFO	ru.sfedu.api.DataProviderCsv:75 - delete
+02.09 21.23.08  INFO	ru.sfedu.api.DataProviderCsv:48 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 21.23.08  INFO	ru.sfedu.api.DataProviderCsv:56 - loaded = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.23.08  INFO	ru.sfedu.api.DataProviderCsv:67 - Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}
+02.09 21.23.08  INFO	ru.sfedu.api.DataProviderCsv:77 - Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}
+02.09 21.24.38  INFO	ru.sfedu.api.DataProviderCsv:48 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 21.24.38  INFO	ru.sfedu.api.DataProviderCsv:56 - loaded = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.24.38  INFO	ru.sfedu.api.DataProviderCsv:67 - Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}
+02.09 21.24.38  INFO	ru.sfedu.api.DataProviderCsv:74 - 2
+02.09 21.24.38  INFO	ru.sfedu.api.DataProviderCsv:48 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 21.24.38  INFO	ru.sfedu.api.DataProviderCsv:56 - loaded = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.24.38  INFO	ru.sfedu.api.DataProviderCsv:79 - keepers = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}, Storekeeper{id='2', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.24.38  INFO	ru.sfedu.api.DataProviderCsv:81 - keepersdel = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.24.38  INFO	ru.sfedu.api.DataProviderCsv:25 - storekeeper = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.24.38  INFO	ru.sfedu.api.DataProviderCsv:75 - delete
+02.09 21.24.38  INFO	ru.sfedu.api.DataProviderCsv:48 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 21.24.38  INFO	ru.sfedu.api.DataProviderCsv:56 - loaded = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.24.38  INFO	ru.sfedu.api.DataProviderCsv:67 - null
+02.09 21.24.38  INFO	ru.sfedu.api.DataProviderCsv:77 - null
+02.09 21.28.54  INFO	ru.sfedu.api.DataProviderCsv:48 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 21.28.54  INFO	ru.sfedu.api.DataProviderCsv:56 - loaded = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.28.54  INFO	ru.sfedu.api.DataProviderCsv:67 - null
+02.09 21.28.54  INFO	ru.sfedu.api.DataProviderCsv:48 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 21.28.54  INFO	ru.sfedu.api.DataProviderCsv:56 - loaded = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.28.54  INFO	ru.sfedu.api.DataProviderCsv:67 - null
+02.09 21.29.08  INFO	ru.sfedu.api.DataProviderCsv:48 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 21.29.08  INFO	ru.sfedu.api.DataProviderCsv:56 - loaded = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.29.08  INFO	ru.sfedu.api.DataProviderCsv:67 - null
+02.09 21.29.08  INFO	ru.sfedu.api.DataProviderCsv:48 - xml = {, container=[Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}]}
+02.09 21.29.08  INFO	ru.sfedu.api.DataProviderCsv:56 - loaded = [Storekeeper{id='1', name='vghj', address='cvbn', phone_number='51351'}]
+02.09 21.29.08  INFO	ru.sfedu.api.DataProviderCsv:67 - null
